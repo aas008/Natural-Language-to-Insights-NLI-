@@ -11,12 +11,15 @@ Date:
 This project aims to empower business users to retrieve insights from enterprise data using natural language queries (English). By leveraging a Large Language Model (LLM), the system will translate user prompts into SQL queries, extract the relevant data, and present it in the form of visualizations (graphs, tables, dashboards) through Power BI or similar tools.
 
 The system is role-aware, ensuring that outputs are tailored to the user's business function, with insights presented in formats most useful to them.
+
 2. Goals and Objectives
 • Allow users to ask questions in plain English to access business data.
 • Automatically generate SQL queries from natural language prompts.
 • Provide visual and written insights through Power BI dashboards.
 • Support role-based personalization to adapt outputs depending on the user (Sales, Finance, Operations, etc.).
 • Enhance executive decision-making through simplified, on-demand analytics.
+
+
 3. Process Flow
 • User Input: User enters a natural language prompt specifying the analysis.
 • Persona Detection: System captures the user's role/persona to customize output (e.g., Salesperson, Executive).
