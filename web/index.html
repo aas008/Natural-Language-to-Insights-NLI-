@@ -14,22 +14,38 @@
             <p>Business Intelligence through Natural Language</p>
         </header>
 
-        <div class="role-selector">
-            <label for="user-role">Select Your Role:</label>
-            <select id="user-role">
-                <option value="Sales Manager">Sales Manager</option>
-                <option value="Executive">Executive</option>
-                <option value="Finance">Finance</option>
-                <option value="Analyst">Analyst</option>
-            </select>
-        </div>
-
-        <div class="query-section">
-            <div class="input-area">
-                <textarea id="query-input" placeholder="Ask a question about your data... (e.g., 'What were sales by region last quarter?')"></textarea>
-                <button id="submit-query"><i class="fas fa-paper-plane"></i> Ask</button>
+        <div class="chat-container">
+            <div class="chat-history" id="chat-history">
+                <div class="welcome-message">
+                    <div class="ai-message">
+                        <div class="avatar">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="message-content">
+                            <p>Hello! I'm your NLI Assistant. Ask me anything about your business data.</p>
+                            <p class="message-time">Just now</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="chat-input">
+                <div class="role-selector">
+                    <label for="user-role">Your Role:</label>
+                    <select id="user-role">
+                        <option value="Sales Manager">Sales Manager</option>
+                        <option value="Executive">Executive</option>
+                        <option value="Finance">Finance</option>
+                        <option value="Analyst">Analyst</option>
+                    </select>
+                </div>
+                <div class="input-area">
+                    <textarea id="query-input" placeholder="Ask a question about your data... (e.g., 'What were sales by region last quarter?')"></textarea>
+                    <button id="submit-query"><i class="fas fa-paper-plane"></i></button>
+                </div>
             </div>
         </div>
+
 
         <div class="loading" id="loading">
             <div class="spinner"></div>
