@@ -1,0 +1,101 @@
+sale_id,date,product_name,product_category,quantity,unit_price,customer_id,region,sales_channel,sales_amount
+1,2024-01-01,Desktop Z,Electronics,6,1132.38,10,North,Retail,6794.28
+2,2024-01-02,Monitor,Accessories,7,1200.98,10,South,Online,8406.86
+3,2024-01-03,Monitor,Accessories,7,994.33,3,West,Online,6960.31
+4,2024-01-04,Laptop Pro,Electronics,3,398.09,16,East,Online,1194.27
+5,2024-01-05,Tablet Y,Electronics,7,981.22,3,East,Retail,6868.54
+6,2024-01-06,Monitor,Accessories,3,973.38,10,North,Retail,2920.14
+7,2024-01-07,Laptop Pro,Accessories,6,1470.16,14,North,Distributor,8820.96
+8,2024-01-08,Monitor,Accessories,6,1345.16,4,South,Retail,8070.96
+9,2024-01-09,Tablet Y,Accessories,7,569.55,9,East,Retail,3986.85
+10,2024-01-10,Desktop Z,Accessories,4,731.05,1,North,Distributor,2924.2
+11,2024-01-11,Monitor,Electronics,4,284.6,10,West,Distributor,1138.4
+12,2024-01-12,Monitor,Electronics,2,1244.31,8,West,Online,2488.62
+13,2024-01-13,Tablet Y,Accessories,7,177.08,8,East,Distributor,1239.56
+14,2024-01-14,Tablet Y,Electronics,3,1173.08,3,South,Online,3519.24
+15,2024-01-15,Monitor,Accessories,9,1241.07,5,North,Distributor,11169.63
+16,2024-01-16,Smartphone X,Electronics,7,791.24,11,East,Retail,5538.68
+17,2024-01-17,Monitor,Accessories,9,478.59,10,North,Online,4307.31
+18,2024-01-18,Desktop Z,Electronics,1,1384.38,11,West,Retail,1384.38
+19,2024-01-19,Monitor,Accessories,2,366.73,9,North,Distributor,733.46
+20,2024-01-20,Smartphone X,Accessories,9,1025.99,12,West,Retail,9233.91
+21,2024-01-21,Laptop Pro,Accessories,6,818.2,1,West,Retail,4909.2
+22,2024-01-22,Monitor,Accessories,3,1338.78,6,East,Distributor,4016.34
+23,2024-01-23,Tablet Y,Accessories,6,1195.55,3,South,Retail,7173.3
+24,2024-01-24,Laptop Pro,Accessories,6,1256.62,15,North,Distributor,7539.72
+25,2024-01-25,Tablet Y,Electronics,5,607.64,5,West,Distributor,3038.2
+26,2024-01-26,Tablet Y,Accessories,7,1270.13,16,East,Distributor,8890.91
+27,2024-01-27,Smartphone X,Electronics,9,1279.91,14,East,Retail,11519.19
+28,2024-01-28,Desktop Z,Electronics,3,379.53,6,West,Retail,1138.59
+29,2024-01-29,Smartphone X,Accessories,7,419.36,4,West,Retail,2935.52
+30,2024-01-30,Tablet Y,Accessories,4,1168.62,9,North,Distributor,4674.48
+31,2024-01-31,Monitor,Accessories,5,1356.73,1,West,Retail,6783.65
+32,2024-02-01,Desktop Z,Electronics,9,988.78,13,South,Distributor,8899.02
+33,2024-02-02,Smartphone X,Electronics,4,569.66,8,West,Online,2278.64
+34,2024-02-03,Desktop Z,Accessories,3,631.79,15,North,Distributor,1895.37
+35,2024-02-04,Tablet Y,Accessories,3,691.31,2,West,Retail,2073.93
+36,2024-02-05,Desktop Z,Accessories,7,1271.39,20,South,Distributor,8899.73
+37,2024-02-06,Smartphone X,Electronics,9,1198.99,18,North,Distributor,10790.91
+38,2024-02-07,Tablet Y,Electronics,3,1124.7,15,West,Online,3374.1
+39,2024-02-08,Tablet Y,Electronics,3,611.15,5,North,Online,1833.45
+40,2024-02-09,Tablet Y,Accessories,9,486.18,7,North,Online,4375.62
+41,2024-02-10,Desktop Z,Electronics,6,930.27,16,South,Online,5581.62
+42,2024-02-11,Smartphone X,Accessories,5,417.1,9,West,Retail,2085.5
+43,2024-02-12,Laptop Pro,Electronics,8,1409.67,9,North,Retail,11277.36
+44,2024-02-13,Smartphone X,Accessories,3,651.43,9,West,Retail,1954.29
+45,2024-02-14,Monitor,Electronics,4,603.59,14,East,Retail,2414.36
+46,2024-02-15,Tablet Y,Accessories,1,929.85,5,North,Online,929.85
+47,2024-02-16,Monitor,Accessories,7,828.57,2,South,Online,5799.99
+48,2024-02-17,Laptop Pro,Electronics,4,1268.26,3,North,Retail,5073.04
+49,2024-02-18,Smartphone X,Accessories,6,1493.06,19,East,Distributor,8958.36
+50,2024-02-19,Monitor,Electronics,7,1147.65,9,South,Online,8033.55
+51,2024-02-20,Tablet Y,Electronics,9,717.87,17,South,Retail,6460.83
+52,2024-02-21,Desktop Z,Accessories,9,840.44,12,South,Retail,7563.96
+53,2024-02-22,Desktop Z,Electronics,2,830.36,1,South,Online,1660.72
+54,2024-02-23,Monitor,Electronics,2,422.56,1,West,Retail,845.12
+55,2024-02-24,Laptop Pro,Electronics,4,435.87,8,East,Distributor,1743.48
+56,2024-02-25,Laptop Pro,Accessories,7,323.91,1,East,Distributor,2267.37
+57,2024-02-26,Laptop Pro,Accessories,4,1341.49,3,North,Online,5365.96
+58,2024-02-27,Desktop Z,Electronics,8,1196.24,4,West,Online,9569.92
+59,2024-02-28,Desktop Z,Accessories,6,747.9,17,West,Distributor,4487.4
+60,2024-02-29,Laptop Pro,Electronics,5,394.47,18,East,Retail,1972.35
+61,2024-03-01,Tablet Y,Accessories,6,186.15,18,North,Online,1116.9
+62,2024-03-02,Monitor,Accessories,1,375.32,18,East,Distributor,375.32
+63,2024-03-03,Smartphone X,Accessories,5,283.91,20,North,Distributor,1419.55
+64,2024-03-04,Laptop Pro,Electronics,8,965.18,2,East,Online,7721.44
+65,2024-03-05,Smartphone X,Accessories,4,1477.32,4,East,Online,5909.28
+66,2024-03-06,Laptop Pro,Electronics,2,376.48,17,North,Online,752.96
+67,2024-03-07,Smartphone X,Accessories,8,695.35,17,South,Retail,5562.8
+68,2024-03-08,Smartphone X,Accessories,5,412.41,20,East,Retail,2062.05
+69,2024-03-09,Tablet Y,Electronics,8,183.2,1,North,Distributor,1465.6
+70,2024-03-10,Monitor,Electronics,6,769.45,15,South,Online,4616.7
+71,2024-03-11,Smartphone X,Electronics,4,669.7,16,North,Distributor,2678.8
+72,2024-03-12,Laptop Pro,Electronics,8,1331.2,1,North,Distributor,10649.6
+73,2024-03-13,Monitor,Electronics,3,352.23,17,East,Online,1056.69
+74,2024-03-14,Tablet Y,Accessories,7,461.87,8,South,Online,3233.09
+75,2024-03-15,Desktop Z,Electronics,4,405.15,20,South,Retail,1620.6
+76,2024-03-16,Monitor,Electronics,3,148.61,20,West,Distributor,445.83
+77,2024-03-17,Smartphone X,Electronics,1,398.51,9,West,Distributor,398.51
+78,2024-03-18,Laptop Pro,Electronics,3,864.58,1,North,Online,2593.74
+79,2024-03-19,Tablet Y,Accessories,2,841.72,13,South,Retail,1683.44
+80,2024-03-20,Smartphone X,Electronics,2,620.57,8,South,Retail,1241.14
+81,2024-03-21,Smartphone X,Accessories,3,522.69,12,North,Retail,1568.07
+82,2024-03-22,Smartphone X,Electronics,4,237.8,13,East,Online,951.2
+83,2024-03-23,Laptop Pro,Electronics,2,1333.67,9,South,Retail,2667.34
+84,2024-03-24,Laptop Pro,Accessories,2,488.58,9,South,Retail,977.16
+85,2024-03-25,Smartphone X,Accessories,4,970.96,5,West,Retail,3883.84
+86,2024-03-26,Monitor,Electronics,1,497.72,20,West,Distributor,497.72
+87,2024-03-27,Smartphone X,Electronics,6,401.24,14,South,Distributor,2407.44
+88,2024-03-28,Laptop Pro,Electronics,4,1162.84,2,South,Retail,4651.36
+89,2024-03-29,Monitor,Electronics,4,1424.16,6,South,Distributor,5696.64
+90,2024-03-30,Desktop Z,Electronics,5,873.38,5,West,Distributor,4366.9
+91,2024-03-31,Laptop Pro,Accessories,8,1052.59,16,South,Retail,8420.72
+92,2024-04-01,Laptop Pro,Accessories,5,891.57,18,West,Distributor,4457.85
+93,2024-04-02,Smartphone X,Electronics,2,512.05,8,East,Online,1024.1
+94,2024-04-03,Laptop Pro,Accessories,4,1100.19,19,South,Distributor,4400.76
+95,2024-04-04,Smartphone X,Electronics,1,720.63,1,North,Distributor,720.63
+96,2024-04-05,Desktop Z,Electronics,9,414.64,3,West,Distributor,3731.76
+97,2024-04-06,Desktop Z,Accessories,9,1484.59,5,East,Distributor,13361.31
+98,2024-04-07,Desktop Z,Electronics,4,173.77,4,West,Online,695.08
+99,2024-04-08,Laptop Pro,Accessories,7,1234.99,4,North,Online,8644.93
+100,2024-04-09,Smartphone X,Electronics,7,1016.55,3,South,Retail,7115.85

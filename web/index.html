@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natural Language to Insights - AI Agent</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-robot"></i> NLI Agent</h1>
+            <p>Business Intelligence through Natural Language</p>
+        </header>
+
+        <div class="role-selector">
+            <label for="user-role">Select Your Role:</label>
+            <select id="user-role">
+                <option value="Sales Manager">Sales Manager</option>
+                <option value="Executive">Executive</option>
+                <option value="Finance">Finance</option>
+                <option value="Analyst">Analyst</option>
+            </select>
+        </div>
+
+        <div class="query-section">
+            <div class="input-area">
+                <textarea id="query-input" placeholder="Ask a question about your data... (e.g., 'What were sales by region last quarter?')"></textarea>
+                <button id="submit-query"><i class="fas fa-paper-plane"></i> Ask</button>
+            </div>
+        </div>
+
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Processing your question...</p>
+        </div>
+
+        <div class="results-container" id="results-container">
+            <div class="generated-sql">
+                <h3>Generated SQL</h3>
+                <div class="sql-code" id="sql-output"></div>
+            </div>
+
+            <div class="visualization">
+                <h3>Visualization</h3>
+                <div id="visualization-output">
+                    <img id="chart-image" src="" alt="Data visualization">
+                </div>
+            </div>
+
+            <div class="insights">
+                <h3>Insights</h3>
+                <div id="insights-output"></div>
+                <div id="key-points"></div>
+                <div id="role-insights"></div>
+            </div>
+
+            <div class="data-preview">
+                <h3>Data Preview</h3>
+                <div id="data-output"></div>
+            </div>
+        </div>
+
+        <div class="example-queries">
+            <h3>Example Questions</h3>
+            <ul>
+                <li><a href="#" class="example-query">What were the total sales by region?</a></li>
+                <li><a href="#" class="example-query">Show me the top 5 products by revenue</a></li>
+                <li><a href="#" class="example-query">Compare sales between North and South regions</a></li>
+                <li><a href="#" class="example-query">What's the sales distribution across product categories?</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>Natural Language to Insights (NLI) - Business Intelligence through Conversational AI</p>
+        <p><a href="https://github.com/aas008/Natural-Language-to-Insights-NLI-" target="_blank">View on GitHub <i class="fab fa-github"></i></a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

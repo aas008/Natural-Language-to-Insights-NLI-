@@ -1,0 +1,21 @@
+customer_id,customer_name,segment,region
+1,Customer 1,Corporate,South
+2,Customer 2,Corporate,North
+3,Customer 3,Corporate,South
+4,Customer 4,Consumer,South
+5,Customer 5,Corporate,East
+6,Customer 6,Consumer,North
+7,Customer 7,Small Business,South
+8,Customer 8,Consumer,North
+9,Customer 9,Corporate,West
+10,Customer 10,Consumer,West
+11,Customer 11,Consumer,West
+12,Customer 12,Consumer,North
+13,Customer 13,Small Business,North
+14,Customer 14,Corporate,West
+15,Customer 15,Small Business,West
+16,Customer 16,Small Business,South
+17,Customer 17,Consumer,West
+18,Customer 18,Consumer,West
+19,Customer 19,Consumer,North
+20,Customer 20,Small Business,West
