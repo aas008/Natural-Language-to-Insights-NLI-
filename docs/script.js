@@ -297,7 +297,7 @@ class NLIApp {
         regions: {
           sql: "SELECT region, SUM(sales_amount) as total_sales FROM sales GROUP BY region ORDER BY total_sales DESC",
           visualization: "bar",
-          chart: "https://via.placeholder.com/600x400?text=Region+Sales+Chart",
+          chart: "https://raw.githubusercontent.com/aas008/Natural-Language-to-Insights-NLI-/main/web/images/region_chart.png",
           insights: "Analysis shows that North leads with $123,036.52 (28.2% of total), while West has the lowest value at $85,157.17. 2 out of 4 regions perform above the average of $108,907.54.",
           keyPoints: [
             "Total sales: $435,630.16",
@@ -321,7 +321,7 @@ class NLIApp {
         products: {
           sql: "SELECT product_name, SUM(sales_amount) as total_revenue FROM sales GROUP BY product_name ORDER BY total_revenue DESC LIMIT 5",
           visualization: "bar",
-          chart: "https://via.placeholder.com/600x400?text=Product+Revenue+Chart",
+          chart: "https://raw.githubusercontent.com/aas008/Natural-Language-to-Insights-NLI-/main/web/images/product_chart.png",
           insights: "The top product, Laptop Pro, generates $148,515.25 (34.1% of total revenue), significantly ahead of other products. There's a 62.7% gap between the top and bottom performers in the top 5.",
           keyPoints: [
             "Top revenue generator: Laptop Pro with $148,515.25",
